@@ -1,0 +1,12 @@
+<vector android:height="@dimen/iconHeight" android:viewportHeight="80.0"
+    android:viewportWidth="120.0" android:width="@dimen/iconWidth" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#FFF" android:pathData="M0,0h120v80H0z"/>
+    <path android:fillColor="#C60C30" android:pathData="M60,40m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+    <path android:fillColor="#003478" android:pathData="M43.4,28.9c-3.1,4.6 -1.8,10.8 2.8,13.9 4.6,3.1 10.8,1.8 13.9,-2.8s9.3,-5.8 13.9,-2.8c4.6,3.1 5.8,9.3 2.8,13.9 -6.1,9.2 -18.5,11.7 -27.7,5.5s-11.9,-18.5 -5.7,-27.7z"/>
+    <path android:fillColor="#FF000000"
+        android:pathData="M19.8,25.2L30.9,8.6m-7,19.4L35,11.3m-6.9,19.5l11.1,-16.6m41.6,51.7l11.1,-16.6M85,68.7L96.1,52m-7,19.4l11.1,-16.6M30.9,71.4L19.8,54.8M35,68.7L23.9,52m15.3,13.9L28.1,49.2m63.8,-18.4L80.8,14.1M96.1,28L85,11.3m15.2,13.9L89.1,8.6"
+        android:strokeColor="#000" android:strokeWidth="3.333"/>
+    <path android:fillColor="#FF000000"
+        android:pathData="M83.6,55.7L97.4,65m-70,-3.3l4.2,-2.8m52,-34.6l4.9,-3.2m4.1,-2.8l4.2,-2.8"
+        android:strokeColor="#FFF" android:strokeWidth="1.667"/>
+</vector>

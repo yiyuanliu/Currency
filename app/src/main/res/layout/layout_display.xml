@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/display"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingRight="24dip"
+        android:paddingTop="24dip"
+        android:paddingBottom="24dip"
+        android:background="?colorPrimary"
+        android:foreground="?selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/select1"
+            android:layout_width="24dip"
+            android:layout_height="match_parent"
+            android:src="@drawable/selected_item"
+            android:scaleType="center"/>
+
+        <ImageView
+            android:id="@+id/item1_icon"
+            style="@style/CurrencyIconStyle"
+            tools:src="@drawable/ic_flag_usd"
+            android:background="?selectableItemBackgroundBorderless"/>
+
+        <TextView
+            android:id="@+id/item1_country"
+            style="@style/CountryNameStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dip"
+            tools:text="CNH"/>
+
+        <TextView
+            android:id="@+id/item1_money"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|end"
+            android:textAlignment="viewEnd"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dip"
+            style="@style/MoneyTextStyle"
+            tools:text="1234567.00"
+            android:clickable="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingRight="24dip"
+        android:paddingTop="24dip"
+        android:paddingBottom="24dip"
+        android:background="?colorPrimary"
+        android:foreground="?selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/select2"
+            android:layout_width="24dip"
+            android:layout_height="match_parent"
+            android:src="@drawable/selected_item"
+            android:scaleType="center"/>
+
+        <ImageView
+            android:id="@+id/item2_icon"
+            tools:src="@drawable/ic_flag_cny"
+            style="@style/CurrencyIconStyle"
+            android:background="?selectableItemBackgroundBorderless"/>
+
+        <TextView
+            android:id="@+id/item2_country"
+            style="@style/CountryNameStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dip"
+            tools:text="CNH"/>
+
+        <TextView
+            android:id="@+id/item2_money"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|end"
+            android:layout_weight="1"
+            android:layout_marginLeft="16dip"
+            android:textAlignment="viewEnd"
+            style="@style/MoneyTextStyle"
+            tools:text="1234567.00"
+            android:clickable="false"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+</LinearLayout>

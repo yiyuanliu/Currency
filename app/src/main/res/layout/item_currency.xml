@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="24dip"
+    android:paddingRight="24dip"
+    android:paddingTop="12dip"
+    android:paddingBottom="12dip"
+    android:clickable="true"
+    android:background="?selectableItemBackgroundBorderless"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/currency_icon"
+        style="@style/CurrencyIconStyle"
+        tools:src="@drawable/ic_flag_usd" />
+
+    <TextView
+        android:id="@+id/currency_name"
+        style="@style/CountryNameStyle.List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="CNH"/>
+
+</LinearLayout>

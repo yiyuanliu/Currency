@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="btTextSize">32dip</dimen>
+    <dimen name="iconSize">48dp</dimen>
+    <dimen name="countryNameSize">18dip</dimen>
+    <dimen name="moneySize">22dip</dimen>
+    <dimen name="iconHeight">36dp</dimen>
+    <dimen name="iconWidth">54dp</dimen>
+
+    <dimen name="padPaddingTop">8dip</dimen>
+    <dimen name="padPaddingHor">16dip</dimen>
+    <dimen name="padPaddingBottom">8dip</dimen>
+
+    <dimen name="itemPaddingVertical">16dip</dimen>
+    <dimen name="itemPaddingHor">24dip</dimen>
+    <dimen name="itemTextPadding">16dip</dimen>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_names">
+        <item>AUD</item>
+        <item>BGN</item>
+        <item>BRL</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CNY</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>HKD</item>
+        <item>HRK</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PHP</item>
+        <item>PLN</item>
+        <item>RON</item>
+        <item>RUB</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>USD</item>
+        <item>ZAR</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/ic_flag_aud</item>
+        <item>@drawable/ic_flag_bgn</item>
+        <item>@drawable/ic_flag_brl</item>
+        <item>@drawable/ic_flag_cad</item>
+        <item>@drawable/ic_flag_chf</item>
+        <item>@drawable/ic_flag_cny</item>
+        <item>@drawable/ic_flag_czk</item>
+        <item>@drawable/ic_flag_dkk</item>
+        <item>@drawable/ic_flag_eur</item>
+        <item>@drawable/ic_flag_gbp</item>
+        <item>@drawable/ic_flag_hkd</item>
+        <item>@drawable/ic_flag_hrk</item>
+        <item>@drawable/ic_flag_huf</item>
+        <item>@drawable/ic_flag_idr</item>
+        <item>@drawable/ic_flag_ils</item>
+        <item>@drawable/ic_flag_inr</item>
+        <item>@drawable/ic_flag_jpy</item>
+        <item>@drawable/ic_flag_krw</item>
+        <item>@drawable/ic_flag_mxn</item>
+        <item>@drawable/ic_flag_myr</item>
+        <item>@drawable/ic_flag_nok</item>
+        <item>@drawable/ic_flag_nzd</item>
+        <item>@drawable/ic_flag_php</item>
+        <item>@drawable/ic_flag_pln</item>
+        <item>@drawable/ic_flag_ron</item>
+        <item>@drawable/ic_flag_rub</item>
+        <item>@drawable/ic_flag_sek</item>
+        <item>@drawable/ic_flag_sgd</item>
+        <item>@drawable/ic_flag_thb</item>
+        <item>@drawable/ic_flag_try</item>
+        <item>@drawable/ic_flag_usd</item>
+        <item>@drawable/ic_flag_zar</item>
+    </array>
+
+</resources>
