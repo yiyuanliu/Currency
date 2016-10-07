@@ -19,7 +19,7 @@
 
     <TextView
         android:id="@+id/currency_name"
-        style="@style/CountryNameStyle.List"
+        style="@style/CurrencyNameStyle.List"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="CNH"/>

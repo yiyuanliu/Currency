@@ -5,7 +5,7 @@
 
     <dimen name="btTextSize">32dip</dimen>
     <dimen name="iconSize">48dp</dimen>
-    <dimen name="countryNameSize">18dip</dimen>
+    <dimen name="currencyNameSize">18dip</dimen>
     <dimen name="moneySize">22dip</dimen>
     <dimen name="iconHeight">36dp</dimen>
     <dimen name="iconWidth">54dp</dimen>

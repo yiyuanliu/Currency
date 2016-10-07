@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/ic_balls"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <target
+        android:animation="@animator/anim_rotate"
+        android:name="total"/>
+</animated-vector>

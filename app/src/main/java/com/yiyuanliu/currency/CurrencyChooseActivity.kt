@@ -26,7 +26,6 @@ class CurrencyChooseActivity : AppCompatActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        applyTheme()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_currency_chose)
 

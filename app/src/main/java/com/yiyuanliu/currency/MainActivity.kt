@@ -1,31 +1,23 @@
 package com.yiyuanliu.currency
 
-import android.animation.ObjectAnimator
-import android.animation.ValueAnimator
-import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import android.graphics.Typeface
 import android.os.Bundle
 import android.os.Parcel
 import android.os.Parcelable
-import android.os.PersistableBundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
-import android.text.style.TypefaceSpan
 import android.util.Log
 import android.view.MenuItem
-import android.view.View
-import android.widget.ImageView
 import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.layout_display.*
-import kotlinx.android.synthetic.main.layout_pad.*
+import com.yiyuanliu.currency.theme.ColorTheme
+import com.yiyuanliu.currency.theme.RedTheme
+import org.jetbrains.anko.setContentView
 
 /**
  * Created by yiyuan on 2016/10/3.
  */
-class MainActivity: AppCompatActivity(), DataManager.Listener, Toolbar.OnMenuItemClickListener {
+class MainActivity: AppCompatActivity(), DataManager.Listener {
 
     companion object {
         val HINT_MONEY = 100f
@@ -33,64 +25,15 @@ class MainActivity: AppCompatActivity(), DataManager.Listener, Toolbar.OnMenuIte
 
     lateinit var state: State
     lateinit var dataManager: DataManager
-
-    val padListener = View.OnClickListener { v ->
-        val num: Int = when(v.id) {
-            R.id.digit_0 -> 0
-            R.id.digit_1 -> 1
-            R.id.digit_2 -> 2
-            R.id.digit_3 -> 3
-            R.id.digit_4 -> 4
-            R.id.digit_5 -> 5
-            R.id.digit_6 -> 6
-            R.id.digit_7 -> 7
-            R.id.digit_8 -> 8
-            R.id.digit_9 -> 9
-            R.id.digit_point -> -1
-            R.id.op_del -> -2
-            else -> throw RuntimeException()
-        }
-        onInput(num)
-    }
-
-    val deleteAllListener = View.OnLongClickListener { v ->
-        onInput(-3)
-        true
-    }
-
-    val selectListener = View.OnClickListener { v ->
-        val position = when(v.id) {
-            R.id.item1 -> 1
-            R.id.item2 -> 2
-            else -> throw RuntimeException()
-        }
-        onItemSelected(position)
-    }
-
-    val choseCurrencyListener = View.OnClickListener { v ->
-        val which = when(v.id) {
-            R.id.item1_icon -> 1
-            R.id.item2_icon -> 2
-            else -> throw RuntimeException()
-        }
-        chooseCurrency(which)
-    }
+    lateinit var ui: MainActivityUi
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        applyTheme()
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        ui = MainActivityUi(this)
+        ui.setContentView(this)
 
         dataManager = DataManager.getInstance(this)
         dataManager.addListener(this)
-
-        //set listener to views
-        val pad: Array<View> = arrayOf(digit_0, digit_1, digit_2, digit_3, digit_4,
-                digit_5, digit_6, digit_7, digit_8, digit_9, digit_point, op_del)
-        pad.forEach { it.setOnClickListener(padListener) }
-        op_del.setOnLongClickListener(deleteAllListener)
-        arrayOf(item1, item2).forEach { it.setOnClickListener(selectListener) }
-        arrayOf(item1_icon, item2_icon).forEach { it.setOnClickListener(choseCurrencyListener) }
 
         if (savedInstanceState != null) {
             // restore state here
@@ -100,19 +43,10 @@ class MainActivity: AppCompatActivity(), DataManager.Listener, Toolbar.OnMenuIte
         }
 
         // init view here
-        updateCurrency()
-        updateItemSelection(state.selected)
+        ui.updateCurrency(state)
+        ui.updateSelection(state)
+        ui.applyColorTheme(ColorTheme.getTheme(getAppTheme()))
         updateMoney()
-
-        toolbar.getChildAt(0).scaleX = 0.8f
-        toolbar.inflateMenu(R.menu.menu_main)
-        toolbar.getChildAt(toolbar.childCount - 1).backgroundTintList
-        toolbar.setOnMenuItemClickListener(this)
-    }
-
-    override fun onResume() {
-        super.onResume()
-        toolbar.getChildAt(0).animate().scaleX(1.0f).setDuration(500).setStartDelay(200).start()
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
@@ -130,31 +64,20 @@ class MainActivity: AppCompatActivity(), DataManager.Listener, Toolbar.OnMenuIte
         saveState()
     }
 
-    override fun onMenuItemClick(item: MenuItem): Boolean {
-        when(item.itemId) {
-            R.id.refresh -> dataManager.loadFromNetwork()
-            R.id.theme_blue -> setAppTheme(0)
-            R.id.theme_red -> setAppTheme(1)
-            R.id.theme_green -> setAppTheme(2)
-            R.id.theme_teal -> setAppTheme(3)
-        }
-
-        return true
-    }
-
     override fun onDataUpdate(state: Boolean) {
         if (state) updateMoney()
         else
             Toast.makeText(this, "load failed", Toast.LENGTH_SHORT).show()
+        ui.showRefresh(false)
     }
 
     fun onItemSelected(position: Int) {
         if (state.selected == position) {
             return
         }
-        updateItemSelection(position)
-
         state.selected = position
+        ui.updateSelection(state)
+
         if (state.input.isNotBlank())
             state.input = state.toMoney.toDisplayStr()
         val temp = state.fromCurrency
@@ -182,7 +105,7 @@ class MainActivity: AppCompatActivity(), DataManager.Listener, Toolbar.OnMenuIte
             state.toCurrency = currency
         }
 
-        updateCurrency()
+        ui.updateCurrency(state)
     }
 
     fun onInput(num: Int) {
@@ -202,10 +125,11 @@ class MainActivity: AppCompatActivity(), DataManager.Listener, Toolbar.OnMenuIte
         }
         if (after.isEmpty()) {
             // is all deleted
-        } else if (after.length > 12) {
-            // set max input length to 12
+        } else if (after.length > 10) {
+            // set max input length to 10
             return
-        } else if (after.lastIndexOf('.') >= 0 && after.length - after.lastIndexOf('.') > 5) {
+        } else if (after.lastIndexOf('.') >= 0 && after.length - after.lastIndexOf('.') > 3) {
+            // num such as 0.123 is not allowed
             return
         } else {
             try {
@@ -219,27 +143,6 @@ class MainActivity: AppCompatActivity(), DataManager.Listener, Toolbar.OnMenuIte
         updateMoney()
     }
 
-    fun updateCurrency() {
-        val country1 = if (state.selected == 1) state.fromCurrency else state.toCurrency
-        val country2 = if (state.selected == 2) state.fromCurrency else state.toCurrency
-        item1_country.text = country1
-        item2_country.text = country2
-        item1_icon.setCountry(country1)
-        item2_icon.setCountry(country2)
-    }
-
-    fun updateItemSelection(position: Int) {
-        if (position == 1) {
-            select2.scaleX = 0f
-            select2.scaleY = 0f
-            select1.animate().scaleX(1f).scaleY(1f).start()
-        } else {
-            select1.scaleX = 0f
-            select1.scaleY = 0f
-            select2.animate().scaleX(1f).scaleY(1f).start()
-        }
-    }
-
     fun updateMoney() {
         if (state.input.isNotBlank()) {
             // set data to real data
@@ -251,20 +154,7 @@ class MainActivity: AppCompatActivity(), DataManager.Listener, Toolbar.OnMenuIte
 
         // convert
         state.toMoney = dataManager.convert(state.fromCurrency, state.toCurrency, state.fromMoney)
-
-        if (state.input.isBlank()) {
-            // set hint
-            item1_money.text = ""
-            item2_money.text = ""
-            item1_money.hint = if (state.selected == 1) state.fromMoney.toDisplayStr()
-            else state.toMoney.toDisplayStr()
-            item2_money.hint = if (state.selected == 1) state.toMoney.toDisplayStr()
-            else state.fromMoney.toDisplayStr()
-        } else {
-            // set text
-            item1_money.text = if (state.selected == 1) state.input else state.toMoney.toDisplayStr()
-            item2_money.text = if (state.selected == 1) state.toMoney.toDisplayStr() else state.input
-        }
+        ui.updateMoney(state)
     }
 
     data class State(var input: String, var selected: Int, var fromCurrency: String,

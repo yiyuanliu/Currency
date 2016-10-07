@@ -1,0 +1,23 @@
+<vector
+    android:height="24dp"
+    android:viewportHeight="100.0"
+    android:viewportWidth="100.0"
+    android:width="24dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:name="total"
+        android:pivotY="50"
+        android:pivotX="50">
+        <path android:fillColor="#ffffff"
+            android:pathData="M30,50m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"/>
+        <path android:fillColor="#ffffff"
+            android:pathData="M50,30m0,-5a5,5 0,1 1,0 10a5,5 0,1 1,0 -10"/>
+        <path android:fillColor="#ffffff"
+            android:pathData="M70,50m5,0a5,5 0,1 1,-10 0a5,5 0,1 1,10 0"/>
+        <path android:fillColor="#ffffff"
+            android:pathData="M50,70m0,5a5,5 0,1 1,0 -10a5,5 0,1 1,0 10"/>
+    </group>
+
+
+</vector>

@@ -19,4 +19,16 @@
         android:id="@+id/theme_teal"
         android:title="teal"/>
 
+    <item
+        android:id="@+id/theme_gray"
+        android:title="gray"/>
+
+    <item
+        android:id="@+id/theme_orange"
+        android:title="orange"/>
+
+    <item
+        android:id="@+id/view_all_theme"
+        android:title="view all theme"/>
+
 </menu>
