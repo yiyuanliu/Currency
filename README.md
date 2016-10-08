@@ -83,5 +83,5 @@ override fun createView(ui: AnkoContext<MainActivity>): View = with(ui) {
 汇率数据通过雅虎财经提供的 Api 获得，网络请求部分使用 retrofit 框架。
 
 ## About me
-电子科技大学大三学生。  
+电子科技大学学生, Android 开发者。  
 email: yiyuanliu1997@gmail.com
