@@ -38,6 +38,7 @@ override fun createView(ui: AnkoContext<MainActivity>): View = with(ui) {
 ### About me
 
 A student of UESTC.  
+
 Email: yiyuanliu1997@gmail.com
 
 --------------------------------------------------------------------------
@@ -84,4 +85,5 @@ override fun createView(ui: AnkoContext<MainActivity>): View = with(ui) {
 
 ## About me
 电子科技大学学生, Android 开发者。  
+
 email: yiyuanliu1997@gmail.com
