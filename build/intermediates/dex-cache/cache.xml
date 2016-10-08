@@ -3,21 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.0.4\9c8d1a5d2eea3c9a7f58baa1a2fa11498cb41d0\kotlin-stdlib-1.0.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09c8d1a5d2eea3c9a7f58baa1a2fa11498cb41d0">
-        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\kotlin-stdlib-1.0.4_b78a817ef3d39386910cbc5b35b14db3dd361ee2.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="867dad63c33388ff8c7644b236579355036d075f">
         <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_54bde16dc143a36f77ee2462147ebac6b44c7f73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.0.4\9c8d1a5d2eea3c9a7f58baa1a2fa11498cb41d0\kotlin-stdlib-1.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09c8d1a5d2eea3c9a7f58baa1a2fa11498cb41d0">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\kotlin-stdlib-1.0.4_b78a817ef3d39386910cbc5b35b14db3dd361ee2.jar" />
     </item>
     <item
         is-multidex="false"
