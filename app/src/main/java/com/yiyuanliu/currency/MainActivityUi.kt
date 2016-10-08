@@ -206,8 +206,6 @@ class MainActivityUi(val context: MainActivity) : AnkoComponent<MainActivity> {
 
     override fun createView(ui: AnkoContext<MainActivity>): View = with(ui) {
         verticalLayout {
-            showDividers = LinearLayout.SHOW_DIVIDER_MIDDLE
-
             toolbar = toolbar(R.style.ThemeOverlay_AppCompat_Dark_ActionBar) {
                 title = "CURRENCY"
                 titleMarginStart = dip(24)
