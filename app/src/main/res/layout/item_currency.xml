@@ -15,7 +15,8 @@
     <ImageView
         android:id="@+id/currency_icon"
         style="@style/CurrencyIconStyle"
-        tools:src="@drawable/ic_flag_usd" />
+        tools:src="@drawable/ic_flag_usd"
+        android:clickable="false"/>
 
     <TextView
         android:id="@+id/currency_name"

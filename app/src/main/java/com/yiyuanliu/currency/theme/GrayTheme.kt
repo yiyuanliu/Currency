@@ -1,6 +1,5 @@
 package com.yiyuanliu.currency.theme
 
-import android.support.annotation.ColorRes
 import org.jetbrains.anko.opaque
 
 /**

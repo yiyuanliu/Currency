@@ -106,6 +106,7 @@ class MainActivity: AppCompatActivity(), DataManager.Listener {
         }
 
         ui.updateCurrency(state)
+        updateMoney()
     }
 
     fun onInput(num: Int) {

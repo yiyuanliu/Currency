@@ -218,7 +218,7 @@ class MainActivityUi(val context: MainActivity) : AnkoComponent<MainActivity> {
                 setTitleTextAppearance(context, R.style.TitleAppearance)
 
                 refresh = progressBar {
-                    visibility = View.VISIBLE
+                    visibility = View.INVISIBLE
                     indeterminateDrawable?.setTint(0xffffff.opaque)
                 }.lparams {
                     width = dip(24)

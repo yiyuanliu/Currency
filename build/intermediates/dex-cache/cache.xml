@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.0.4\9c8d1a5d2eea3c9a7f58baa1a2fa11498cb41d0\kotlin-stdlib-1.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09c8d1a5d2eea3c9a7f58baa1a2fa11498cb41d0">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\kotlin-stdlib-1.0.4_b78a817ef3d39386910cbc5b35b14db3dd361ee2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_54bde16dc143a36f77ee2462147ebac6b44c7f73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_d831392411825512ee722723fcbcd2639f5a7f2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\org.jetbrains.anko\anko-sdk21\0.9\d7a999e2ef06372fd38f3879ff1ba4f657532e4d\anko-sdk21-0.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7a999e2ef06372fd38f3879ff1ba4f657532e4d">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\anko-sdk21-0.9_839aefb423a5400ccea644e5eabc00b8843bfe78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_0cff352bf3cd9f2d5034dffd9ae4334fe7079168.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0_efec688fdaf8f6aad8f55856cb5bb1599fec2901.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_c29b1f164cc54c258a17391ed8380db9bef6d5cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_8c77c4f8c86e8284bddcef5aa19b180a59eaafbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_d725da22fa6c6b10a48588f7882a2b7c4a940e3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_acde101e4f5040f4b88375cb27d3461c7a390714.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-runtime\1.0.4\8e25da5e31669f5acf514bdd99b94ff5c7003b3b\kotlin-runtime-1.0.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8e25da5e31669f5acf514bdd99b94ff5c7003b3b">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\kotlin-runtime-1.0.4_ef2efe589d1c3bfef6273c89de178568356df7ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\org.jetbrains.anko\anko-recyclerview-v7\0.9\edf89d7cedde1b778af7ab32f350654e8b2df4eb\anko-recyclerview-v7-0.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="edf89d7cedde1b778af7ab32f350654e8b2df4eb">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\anko-recyclerview-v7-0.9_96cd290e79349db4d1039077eb1ea4e7a13b028d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\okio-1.8.0_1977e38ac6ec7e9a5d32d2b0dce070f12d7f87e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_b4c8c2831873c5ba7238c86f099fed15d4884c11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_c9d1bf734084df302e7c67fc51bc239ae52aa09e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_0803d78169563d826e30bf6205b7184238f10953.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_19c421f96784cd83cfe29084d158925bc1f58e82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_cba49cb1e287ef300b162420a80d309e8ef892f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_00c7ce64b42b16598af3abf4b6e89935c6d044ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_b8c22a40accec40b1acc6b9e8e18c51089eff2ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\org.jetbrains.anko\anko-support-v4\0.9\4616ffe811fc931672c50fb05834a62aa24cdab2\anko-support-v4-0.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4616ffe811fc931672c50fb05834a62aa24cdab2">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\anko-support-v4-0.9_68a89c05fba417acc72e511d7b62746e8c5aa11a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\org.jetbrains.anko\anko-appcompat-v7\0.9\69676bf4015be3e182e00dbebea5ee0c9325e78a\anko-appcompat-v7-0.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="69676bf4015be3e182e00dbebea5ee0c9325e78a">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\anko-appcompat-v7-0.9_66f0a05032c956e987762dcb2397663f698795e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_553b75bcd001303982532d0ccf535aacc2918b20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\org.jetbrains.anko\anko-common\0.9\26c6156bea5eb494474c90528240daadf4b067c8\anko-common-0.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="26c6156bea5eb494474c90528240daadf4b067c8">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\anko-common-0.9_fe817dcfe2a161512cd9d2f671abfca0e67aca22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\gson-2.7_c2b635f4f043523249054868b485c15612e3fbda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_c25c17e387ca97e3068585d657cd517d5f48d995.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\android\currency\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_d7380e7b05487e35ffaf0f965d51136148685cee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yiyuanliu\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\work\android\currency\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_d66fe83034dfea509687fc97ce5e2373b7d55c72.jar" />
+    </item>
+
+</items>
