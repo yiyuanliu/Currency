@@ -1,6 +1,6 @@
 # Currency
 
-[中文 README](# 中文)
+[中文 README](#中文)
 
 :money_with_wings:A beautiful currency conversion app written in Kotlin and using Anko. Supports multi-theme with smooth animation.
 
