@@ -260,7 +260,7 @@ class MainActivityUi(val context: MainActivity) : AnkoComponent<MainActivity> {
 
                 linearLayout {
                     verticalPadding = dip(24)
-                    rightPadding = dip(24)
+                    rightPadding = dip(16)
                     background = selectableBackground(context)
                     onClick { ui.owner.onItemSelected(2); Log.d("test", "selected 2") }
 
